@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Голубой цвет фона */
+}
+
+#burger-menu-button {
+    font-size: 30px;
+    cursor: pointer;
+    color: #0288d1; /* Синий цвет текста */
+}
+
+#burger-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #0288d1; /* Синий цвет фона */
+    color: #e0f7fa; /* Голубой цвет текста */
+    padding: 20px;
+    overflow-y: auto;
+}
+
+#burger-menu .menu-section h3 {
+    margin-top: 0;
+    color: #e0f7fa; /* Голубой цвет текста */
+}
+
+#burger-menu .menu-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#burger-menu .menu-section ul li a {
+    color: #e0f7fa; /* Голубой цвет текста */
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+
+.hidden {
+    display: none;
+}
